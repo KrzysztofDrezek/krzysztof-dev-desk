@@ -49,7 +49,7 @@ function Home() {
           </h1>
 
           <p className="text-slate-300 text-lg md:text-xl mb-8">
-            Computer Science Student | Frontend Developer | Data Analyst
+            Frontend Developer | React | Full-Stack & Data Projects
           </p>
 
           <p className="text-slate-400 max-w-2xl mx-auto mb-10">
