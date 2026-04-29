@@ -100,24 +100,51 @@ function Home() {
 
           <motion.div
             whileHover={{ scale: 1.04, y: -8 }}
+            whileTap={{ scale: 0.98 }}
             onClick={() => setIsLaptopOpen(true)}
-            className="absolute left-1/2 top-44 -translate-x-1/2 w-[460px] cursor-pointer z-10"
+            className="absolute left-1/2 top-40 -translate-x-1/2 w-[500px] cursor-pointer z-10"
           >
-            <div className="h-64 rounded-2xl bg-slate-950 border-4 border-slate-700 shadow-2xl p-4">
-              <div className="h-full rounded-xl bg-linear-to-br from-slate-900 via-slate-950 to-cyan-950 border border-cyan-400/30 flex items-center justify-center">
-                <div>
-                  <p className="text-cyan-400 font-mono text-sm mb-2">
-                    Projects
+            <div className="relative h-72 rounded-3xl bg-slate-950 border-[6px] border-slate-700 shadow-2xl p-4 overflow-hidden">
+              <div className="absolute inset-0 bg-cyan-500/10 blur-2xl"></div>
+
+              <div className="relative h-full rounded-2xl bg-linear-to-br from-slate-950 via-slate-900 to-cyan-950 border border-cyan-400/40 overflow-hidden">
+                <div className="h-8 bg-slate-900/90 border-b border-slate-700 flex items-center px-4 gap-2">
+                  <span className="w-3 h-3 rounded-full bg-red-400"></span>
+                  <span className="w-3 h-3 rounded-full bg-yellow-400"></span>
+                  <span className="w-3 h-3 rounded-full bg-green-400"></span>
+                  <p className="ml-3 text-[11px] text-slate-400 font-mono">
+                    projects.dashboard
                   </p>
-                  <p className="text-slate-300 text-xs">
-                    Click to open laptop
+                </div>
+
+                <div className="p-5 text-left">
+                  <p className="text-cyan-400 font-mono text-sm mb-4">
+                    ./projects
+                  </p>
+
+                  <div className="grid grid-cols-3 gap-3">
+                    {projects.map((project) => (
+                      <div
+                        key={project.id}
+                        className="rounded-xl border border-cyan-400/20 bg-slate-950/70 p-3"
+                      >
+                        <div className="w-8 h-6 rounded-md bg-cyan-400/20 border border-cyan-300/30 mb-3"></div>
+                        <p className="text-[11px] text-slate-200 leading-tight">
+                          {project.title}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+
+                  <p className="text-slate-400 text-xs mt-5 font-mono">
+                    Click laptop to open project dashboard →
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="h-5 bg-slate-700 rounded-b-2xl mx-8"></div>
-            <div className="h-3 bg-slate-800 rounded-full mx-2"></div>
+            <div className="h-6 bg-linear-to-b from-slate-600 to-slate-800 rounded-b-3xl mx-10"></div>
+            <div className="h-4 bg-slate-800 rounded-full mx-4 shadow-xl"></div>
           </motion.div>
 
           <motion.div
@@ -165,8 +192,9 @@ function Home() {
         >
           <motion.div
             onClick={(e) => e.stopPropagation()}
-            initial={{ scale: 0.8, opacity: 0, y: 40 }}
+            initial={{ scale: 0.75, opacity: 0, y: 60 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 120, damping: 18 }}
             className="w-full max-w-5xl bg-slate-900 border border-cyan-400/40 rounded-3xl shadow-2xl shadow-cyan-500/20 p-8 relative"
           >
             <button
@@ -175,6 +203,15 @@ function Home() {
             >
               ×
             </button>
+
+            <div className="h-8 mb-6 bg-slate-950 border border-slate-800 rounded-xl flex items-center px-4 gap-2">
+              <span className="w-3 h-3 rounded-full bg-red-400"></span>
+              <span className="w-3 h-3 rounded-full bg-yellow-400"></span>
+              <span className="w-3 h-3 rounded-full bg-green-400"></span>
+              <p className="ml-3 text-xs text-slate-400 font-mono">
+                laptop/projects-dashboard
+              </p>
+            </div>
 
             <p className="text-cyan-400 uppercase tracking-widest text-sm mb-3">
               Laptop Screen
