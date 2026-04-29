@@ -64,7 +64,7 @@ function Home() {
         </motion.div>
       </section>
 
-      <section className="px-6 py-24 max-w-7xl mx-auto text-center">
+      <section className="px-4 py-24 max-w-[1600px] mx-auto text-center">
         <p className="text-cyan-400 uppercase tracking-widest text-sm mb-3">
           Explore the workspace
         </p>
@@ -73,7 +73,7 @@ function Home() {
           Interactive Dev Desk
         </h2>
 
-        <div className="relative mx-auto max-w-7xl min-h-[720px] rounded-4xl border border-slate-800 bg-linear-to-b from-slate-900 to-slate-950 p-8 shadow-2xl overflow-hidden">
+        <div className="relative mx-auto w-full max-w-[1500px] min-h-[820px] rounded-4xl border border-slate-800 bg-linear-to-b from-slate-900 to-slate-950 p-8 shadow-2xl overflow-visible">
           <div className="absolute inset-0 bg-cyan-500/5"></div>
           <div className="absolute w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl top-16 left-1/2 -translate-x-1/2"></div>
 
