@@ -17,6 +17,11 @@ function Home() {
       desc: "Full-stack travel booking application with React, Node.js and SQLite.",
     },
     {
+      id: "job-application-tracker",
+      title: "Job Application Tracker",
+      desc: "Web app for tracking job applications, managing statuses and organizing the job search process.",
+    },
+    {
       id: "ai-task-assistant",
       title: "AI Task Assistant",
       desc: "PWA frontend app created for research: AI at Work: Help or Hype?",
@@ -26,7 +31,7 @@ function Home() {
       title: "Advanced Database System",
       desc: "SQL-based system with CRUD operations, validation and structured testing.",
     },
-  ];
+      ];
 
   return (
     <main className="min-h-screen bg-slate-950 text-white overflow-hidden">

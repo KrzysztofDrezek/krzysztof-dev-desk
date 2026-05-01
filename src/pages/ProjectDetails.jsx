@@ -1,4 +1,4 @@
-import { ArrowLeft, Code2 } from 'lucide-react';
+import { ArrowLeft, Code2, ExternalLink } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 
 function ProjectDetails() {
@@ -19,7 +19,27 @@ function ProjectDetails() {
         "Booking system with availability reduction after booking.",
         "Login, logout and protected booking routes.",
       ],
+      github: "https://github.com/KrzysztofDrezek",
+      live: "",
     },
+
+    "job-application-tracker": {
+      title: "Job Application Tracker",
+      subtitle: "Full-stack job search management application",
+      description:
+        "Job Application Tracker is a web application designed to help users organise and manage their job search process. It allows applications to be tracked by company, role, status and progress, making the recruitment workflow easier to control and review.",
+      tech: ["React", "Vite", "JavaScript", "Tailwind CSS", "LocalStorage"],
+      highlights: [
+        "Built a practical application focused on solving a real job-search organisation problem.",
+        "Created a clean interface for tracking applications and their current status.",
+        "Used reusable React components to keep the application structured and maintainable.",
+        "Implemented responsive styling for a clear experience across different screen sizes.",
+        "Deployed the project with Vercel and connected it to GitHub for version control.",
+      ],
+      github: https://github.com/KrzysztofDrezek/job-application-tracker,
+      live: https://job-application-tracker-one-omega.vercel.app/,
+    },
+
     "ai-task-assistant": {
       title: "AI Task Assistant",
       subtitle: "Frontend/PWA research artefact",
@@ -33,7 +53,10 @@ function ProjectDetails() {
         "Includes manifest and service worker for PWA behaviour.",
         "Supports the research topic around AI support in work and study.",
       ],
+      github: "https://github.com/KrzysztofDrezek",
+      live: "",
     },
+
     "advanced-database-system": {
       title: "Advanced Database System",
       subtitle: "Database-focused coursework project",
@@ -47,6 +70,8 @@ function ProjectDetails() {
         "Encryption and decryption features implemented.",
         "Includes evidence-based testing and screenshots for reporting.",
       ],
+      github: "https://github.com/KrzysztofDrezek",
+      live: "",
     },
   };
 
@@ -114,13 +139,25 @@ function ProjectDetails() {
           </ul>
         </div>
 
-        <button
-          onClick={() => window.open('https://github.com/KrzysztofDrezek', '_blank')}
-          className="bg-cyan-400 text-slate-950 px-6 py-3 rounded-xl font-semibold flex items-center gap-2 hover:bg-cyan-300 transition"
-        >
-          <Code2 size={20} />
-          View on GitHub
-        </button>
+        <div className="flex flex-wrap gap-4">
+          {project.live && (
+            <button
+              onClick={() => window.open(project.live, '_blank')}
+              className="bg-cyan-400 text-slate-950 px-6 py-3 rounded-xl font-semibold flex items-center gap-2 hover:bg-cyan-300 transition"
+            >
+              <ExternalLink size={20} />
+              View Live
+            </button>
+          )}
+
+          <button
+            onClick={() => window.open(project.github, '_blank')}
+            className="border border-cyan-400 text-cyan-400 px-6 py-3 rounded-xl font-semibold flex items-center gap-2 hover:bg-cyan-400 hover:text-slate-950 transition"
+          >
+            <Code2 size={20} />
+            View on GitHub
+          </button>
+        </div>
       </section>
     </main>
   );
