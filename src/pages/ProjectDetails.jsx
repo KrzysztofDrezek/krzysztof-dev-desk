@@ -20,7 +20,7 @@ function ProjectDetails() {
         "Login, logout and protected booking routes.",
       ],
       github: "https://github.com/KrzysztofDrezek",
-      live: "",
+      live: "https://krzysztof-dev-desk-git-main-krzysztofdrezeks-projects.vercel.app/",
     },
 
     "job-application-tracker": {
@@ -36,8 +36,8 @@ function ProjectDetails() {
         "Implemented responsive styling for a clear experience across different screen sizes.",
         "Deployed the project with Vercel and connected it to GitHub for version control.",
       ],
-      github: https://github.com/KrzysztofDrezek/job-application-tracker,
-      live: https://job-application-tracker-one-omega.vercel.app/,
+      github: "https://github.com/KrzysztofDrezek/job-application-tracker",
+      live: "https://job-application-tracker-one-omega.vercel.app/",
     },
 
     "ai-task-assistant": {
