@@ -23,6 +23,23 @@ function ProjectDetails() {
       live: "https://krzysztof-dev-desk-git-main-krzysztofdrezeks-projects.vercel.app/",
     },
 
+    "mini-data-pipeline": {
+       title: "Mini Data Pipeline",
+       subtitle: "Python-based data processing project",
+       description:
+         "Mini Data Pipeline is a data-focused Python project designed to practise loading, cleaning and processing structured data. The project demonstrates basic automation, reproducible data workflow and practical data analysis skills.",
+       tech: ["Python", "CSV", "Data Processing", "Automation", "Data Cleaning"],
+       highlights: [
+          "Loads and processes structured data from CSV files.",
+          "Demonstrates basic data cleaning and transformation.",
+          "Uses Python to automate a repeatable workflow.",
+          "Shows practical data analyst skills through a small but focused project.",
+          "Supports a portfolio direction combining software development and data analysis."
+      ],
+      github: "https://github.com/KrzysztofDrezek/mini-data-pipeline",
+      live: ""
+    },
+
     "job-application-tracker": {
       title: "Job Application Tracker",
       subtitle: "Full-stack job search management application",

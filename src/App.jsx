@@ -17,9 +17,17 @@ function Home() {
       desc: "Full-stack travel booking application with React, Node.js and SQLite.",
     },
     {
+      id: "mini-data-pipeline",
+      title: "Mini Data Pipeline",
+      subtitle: "Python-based data processing project",
+      desc:
+        "A small Python project focused on loading, cleaning and processing structured data through a repeatable workflow.",
+      tech: ["Python", "CSV", "Automation"],
+    },
+    {
       id: "job-application-tracker",
       title: "Job Application Tracker",
-      desc: "Web app for tracking job applications, managing statuses and organizing the job search process.",
+      desc: "Full-stack app for tracking job applications, managing statuses and organizing the job search workflow."
     },
     {
       id: "ai-task-assistant",
