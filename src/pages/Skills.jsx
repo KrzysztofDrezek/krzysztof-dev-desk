@@ -64,10 +64,11 @@ function Skills() {
             </h2>
 
             <div className="space-y-4">
-              <SkillBar name="Node.js" level={65} />
-              <SkillBar name="Express" level={65} />
-              <SkillBar name="SQLite" level={70} />
-              <SkillBar name="REST APIs" level={60} />
+              <SkillBar name="Node.js" level={70} />
+              <SkillBar name="Express" level={70} />
+              <SkillBar name="SQLite" level={75} />
+              <SkillBar name="REST APIs" level={70} />
+              <SkillBar name="Authentication" level={60} />
             </div>
           </div>
 
@@ -79,7 +80,9 @@ function Skills() {
 
             <div className="space-y-4">
               <SkillBar name="SQL" level={75} />
-              <SkillBar name="Python" level={60} />
+              <SkillBar name="Python" level={65} />
+              <SkillBar name="Data Cleaning" level={65} />
+              <SkillBar name="ETL Basics" level={60} />
               <SkillBar name="Data Analysis" level={65} />
             </div>
           </div>
@@ -95,6 +98,7 @@ function Skills() {
               <SkillBar name="VS Code" level={85} />
               <SkillBar name="Figma" level={60} />
               <SkillBar name="IntelliJ" level={65} />
+              <SkillBar name="Vercel Deployment" level={70} />
             </div>
           </div>
 

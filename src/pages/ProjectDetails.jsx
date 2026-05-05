@@ -41,21 +41,22 @@ function ProjectDetails() {
     },
 
     "job-application-tracker": {
-      title: "Job Application Tracker",
-      subtitle: "Full-stack job search management application",
-      description:
-        "Job Application Tracker is a web application designed to help users organise and manage their job search process. It allows applications to be tracked by company, role, status and progress, making the recruitment workflow easier to control and review.",
-      tech: ["React", "Vite", "JavaScript", "Tailwind CSS", "LocalStorage"],
-      highlights: [
-        "Built a practical application focused on solving a real job-search organisation problem.",
-        "Created a clean interface for tracking applications and their current status.",
-        "Used reusable React components to keep the application structured and maintainable.",
-        "Implemented responsive styling for a clear experience across different screen sizes.",
-        "Deployed the project with Vercel and connected it to GitHub for version control.",
-      ],
-      github: "https://github.com/KrzysztofDrezek/job-application-tracker",
-      live: "https://job-application-tracker-one-omega.vercel.app/",
-    },
+  title: "Job Application Tracker",
+  subtitle: "Full-stack job search management application",
+  description:
+    "Job Application Tracker is a full-stack web application built to help users organise and manage their job search process. The project includes both frontend and backend functionality, allowing users to track applications, manage statuses and keep the recruitment workflow structured in one place.",
+  tech: ["React", "Vite", "JavaScript", "Node.js", "Express", "SQLite", "Authentication"],
+  highlights: [
+    "Developed a full-stack application with a React frontend and backend API.",
+    "Implemented job application tracking with role, company and status management.",
+    "Added authentication functionality to support user access and session-based use.",
+    "Created a clean dashboard-style interface for managing the job search workflow.",
+    "Connected frontend and backend logic to support real application data handling.",
+    "Deployed the project online and integrated it with GitHub version control.",
+  ],
+  github: "https://github.com/KrzysztofDrezek/job-application-tracker",
+  live: "https://job-application-tracker-one-omega.vercel.app/",
+},
 
     "ai-task-assistant": {
       title: "AI Task Assistant",

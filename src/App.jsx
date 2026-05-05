@@ -27,7 +27,7 @@ function Home() {
     {
       id: "job-application-tracker",
       title: "Job Application Tracker",
-      desc: "Full-stack app for tracking job applications, managing statuses and organizing the job search workflow."
+      desc: "Full-stack job tracking app with frontend, backend, authentication and application status management.",
     },
     {
       id: "ai-task-assistant",
