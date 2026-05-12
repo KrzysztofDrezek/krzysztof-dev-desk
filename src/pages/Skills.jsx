@@ -68,7 +68,8 @@ function Skills() {
               <SkillBar name="Express" level={70} />
               <SkillBar name="SQLite" level={75} />
               <SkillBar name="REST APIs" level={70} />
-              <SkillBar name="Authentication" level={60} />
+              <SkillBar name="Authentication" level={65} />
+              <SkillBar name="Full-stack Integration" level={70} />
             </div>
           </div>
 

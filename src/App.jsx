@@ -17,6 +17,11 @@ function Home() {
       desc: "Full-stack travel booking application with React, Node.js and SQLite.",
     },
     {
+      id: "construction-cost-estimator",
+      title: "Construction Cost Estimator",
+      desc: "Full-stack web app for estimating construction costs, managing users and generating project calculations.",
+    },
+    {
       id: "mini-data-pipeline",
       title: "Mini Data Pipeline",
       subtitle: "Python-based data processing project",

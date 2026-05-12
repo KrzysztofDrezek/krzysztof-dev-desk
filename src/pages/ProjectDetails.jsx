@@ -23,6 +23,24 @@ function ProjectDetails() {
       live: "https://krzysztof-dev-desk-git-main-krzysztofdrezeks-projects.vercel.app/",
     },
 
+        "construction-cost-estimator": {
+      title: "Construction Cost Estimator",
+      subtitle: "Full-stack construction pricing application",
+      description:
+        "Construction Cost Estimator is a full-stack web application designed to help estimate construction project costs. The project combines frontend interaction with backend logic, allowing users to calculate pricing, manage project data and work with a practical business-focused workflow.",
+      tech: ["React", "Vite", "JavaScript", "Node.js", "Express", "SQLite", "Authentication"],
+      highlights: [
+        "Built a full-stack application focused on a real construction industry use case.",
+        "Created an interactive frontend for entering project details and calculating estimated costs.",
+        "Implemented backend logic to support data handling and user workflows.",
+        "Added user registration and login functionality.",
+        "Connected frontend and backend services to support a practical project estimation process.",
+        "Deployed the application online and connected it with GitHub version control.",
+      ],
+      github: "https://github.com/KrzysztofDrezek/construction-cost-estimator",
+      live: "https://vercel.com/krzysztofdrezeks-projects/construction-cost-estimator",
+    },
+
     "mini-data-pipeline": {
        title: "Mini Data Pipeline",
        subtitle: "Python-based data processing project",
