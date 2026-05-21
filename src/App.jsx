@@ -12,6 +12,11 @@ function Home() {
 
   const projects = [
     {
+      id: "fieldops-pwa",
+      title: "FieldOps PWA",
+      desc: "Work-in-progress PWA for field incident reporting, offline drafts and operational workflows.",
+    },
+    {
       id: "heritage-tours",
       title: "Heritage Tours",
       desc: "Full-stack travel booking application with React, Node.js and SQLite.",

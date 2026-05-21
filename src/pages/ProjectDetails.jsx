@@ -6,6 +6,24 @@ function ProjectDetails() {
   const { id } = useParams();
 
   const projectData = {
+   "fieldops-pwa": {
+      title: "FieldOps PWA",
+      subtitle: "Progressive Web App for field operations — in progress",
+      description:
+        "FieldOps PWA is an in-progress progressive web application designed for field incident reporting and operational workflows. The project focuses on building a practical mobile-friendly interface for creating incidents, saving offline drafts and managing operational records.",
+      tech: ["React", "Vite", "JavaScript", "PWA", "LocalStorage", "Offline Drafts"],
+      highlights: [
+        "Project currently in active development.",
+        "Built with React and Vite as a progressive web application.",
+        "Includes routing, layout structure and reusable UI components.",
+        "Supports a dynamic incident reporting form with validation.",
+        "Implements local draft saving using browser storage.",
+        "Designed around real-world field operations and incident reporting workflows.",
+      ],
+      github: "https://github.com/KrzysztofDrezek/fieldops-pwa",
+      live: "",
+    },
+
     "heritage-tours": {
       title: "Heritage Tours",
       subtitle: "Full-stack travel booking application",
