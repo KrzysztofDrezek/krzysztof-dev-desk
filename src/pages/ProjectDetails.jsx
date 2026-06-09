@@ -19,9 +19,10 @@ function ProjectDetails() {
         "Supports a dynamic incident reporting form with validation.",
         "Implements local draft saving using browser storage.",
         "Designed around real-world field operations and incident reporting workflows.",
+        "Live demo available. Source code is currently private while the project is in active development.",
       ],
       github: "https://github.com/KrzysztofDrezek/fieldops-pwa",
-      live: "",
+      live: "https://fieldops-pwa.vercel.app/",
     },
 
     "heritage-tours": {
