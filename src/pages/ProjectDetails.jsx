@@ -8,20 +8,32 @@ function ProjectDetails() {
   const projectData = {
    "fieldops-pwa": {
       title: "FieldOps PWA",
-      subtitle: "Progressive Web App for field operations — in progress",
+      subtitle: "Offline-first field operations PWA — in progress",
       description:
-        "FieldOps PWA is an in-progress progressive web application designed for field incident reporting and operational workflows. The project focuses on building a practical mobile-friendly interface for creating incidents, saving offline drafts and managing operational records.",
-      tech: ["React", "Vite", "JavaScript", "PWA", "LocalStorage", "Offline Drafts"],
+        "FieldOps PWA is an in-progress full-stack progressive web application for field incident reporting, structured field reports and operational workflows. The project focuses on offline-first data capture, local storage, synchronisation, authentication and role-based access.",
+      tech: [
+        "React",
+        "Vite",
+        "JavaScript",
+        "PWA",
+        "IndexedDB",
+        "Node.js",
+        "Express",
+        "SQLite",
+        "Authentication",
+        "Roles"
+      ],
       highlights: [
         "Project currently in active development.",
-        "Built with React and Vite as a progressive web application.",
-        "Includes routing, layout structure and reusable UI components.",
-        "Supports a dynamic incident reporting form with validation.",
-        "Implements local draft saving using browser storage.",
-        "Designed around real-world field operations and incident reporting workflows.",
-        "Live demo available. Source code is currently private while the project is in active development.",
+        "Built with React and Vite as an offline-first progressive web application.",
+        "Includes incident reporting and structured field report modules.",
+        "Uses IndexedDB for local storage, drafts and offline record handling.",
+        "Supports sync statuses, retry workflow and automatic sync after reconnect.",
+        "Includes authentication, protected routes and role-based navigation.",
+        "Uses a local Express backend with SQLite for synced incident and report records.",
+        "Live demo available. Source code is currently private while the project is in active development."
       ],
-      github: "https://github.com/KrzysztofDrezek/fieldops-pwa",
+      github: "",
       live: "https://fieldops-pwa.vercel.app/",
     },
 
